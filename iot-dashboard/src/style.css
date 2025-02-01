@@ -1,0 +1,80 @@
+/* styles.css */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #130292, #2575fc); /* Gradiente moderno */
+  color: #ffffff;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  background-color: #1a1a2e; /* Azul escuro */
+  color: white;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.classificacao-container {
+  text-align: center;
+  background-color: white; /* Fundo branco para o contêiner */
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.classificacao-imagem {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid #0000005f; /* Borda roxa para destacar a imagem */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.527);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.classificacao-imagem:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+.mensagem-som {
+  margin-top: 15px;
+  font-size: 1.2rem;
+  color: #333; /* Texto escuro para contraste */
+  font-weight: bold;
+}
+
+/* styles.css */
+.footer {
+  background-color: #1a1a2e; /* Azul escuro, igual ao header */
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 1rem;
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.2);
+  margin-top: auto; /* Garante que o footer fique no final da página */
+}
+
+.footer p {
+  margin: 0;
+}
+
+.footer strong {
+  color: #ffffff; /* Roxo para destacar os nomes */
+}
